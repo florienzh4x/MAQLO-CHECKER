@@ -15,12 +15,19 @@ cat << "EOF"
 EOF
 }
 MAaQLo0o0o0o0o0o0o0o0ooo0ooooooo0o0o00o00o0oooo0o0o0o0o0ooo000oo0o0o0oo00o(){
+	# EDIT A WORD DEFACE
+	kata1="pwneds"
+	kata2="hacked"
+	kata3="touched"
+	kata4="pwned"
+	kata5="defaced"
+	
 	M4QLo0o0o0o0o0o0o0o0o0o0o0o0o0o000o00o00o0o0o0o0o0o0ooooooooooooooooooo=$1
 	printf "    Defaced ... "
 	M4QLo0o0o0o0o0o0o0o0o0o0o0o0o0o000o00o00o0o0o0o0o0o0ooo000000oo00o=$(echo $M4QLo0o0o0o0o0o0o0o0o0o0o0o0o0o000o00o00o0o0o0o0o0o0ooooooooooooooooooo | grep -Po "(?<=://)[^/]*")
 	M4QLo0o0o0o0o0o0o0o0o0o0o0o0o0o000o00o00o0o0o0o0o0o0ooo000oo0o0o0oo00o=$(curl -s "$M4QLo0o0o0o0o0o0o0o0o0o0o0o0o0o000o00o00o0o0o0o0o0o0ooo000000oo00o" -L)
 	M4QLo0o0o0o0o0o0o0o0o0o0o0o0o0o000o00o00o0oooo0o0o0o0o0ooo000oo0o0o0oo00o=$(echo $M4QLo0o0o0o0o0o0o0o0o0o0o0o0o0o000o00o00o0o0o0o0o0o0ooo000oo0o0o0oo00o | tr [:upper:] [:lower:])
-	if [[ $M4QLo0o0o0o0o0o0o0o0o0o0o0o0o0o000o00o00o0oooo0o0o0o0o0ooo000oo0o0o0oo00o =~ "hacked" ]] || [[ $M4QLo0o0o0o0o0o0o0o0o0o0o0o0o0o000o00o00o0oooo0o0o0o0o0ooo000oo0o0o0oo00o =~ "pwned" ]] || [[ $M4QLo0o0o0o0o0o0o0o0o0o0o0o0o0o000o00o00o0oooo0o0o0o0o0ooo000oo0o0o0oo00o =~ "defaced" ]] || [[ $M4QLo0o0o0o0o0o0o0o0o0o0o0o0o0o000o00o00o0oooo0o0o0o0o0ooo000oo0o0o0oo00o =~ "pwnedz" ]] || [[ $M4QLo0o0o0o0o0o0o0o0o0o0o0o0o0o000o00o00o0oooo0o0o0o0o0ooo000oo0o0o0oo00o =~ "pwneds" ]]; then
+	if [[ $M4QLo0o0o0o0o0o0o0o0o0o0o0o0o0o000o00o00o0oooo0o0o0o0o0ooo000oo0o0o0oo00o =~ "${kata1}" ]] || [[ $M4QLo0o0o0o0o0o0o0o0o0o0o0o0o0o000o00o00o0oooo0o0o0o0o0ooo000oo0o0o0oo00o =~ "${kata2}" ]] || [[ $M4QLo0o0o0o0o0o0o0o0o0o0o0o0o0o000o00o00o0oooo0o0o0o0o0ooo000oo0o0o0oo00o =~ "${kata3}" ]] || [[ $M4QLo0o0o0o0o0o0o0o0o0o0o0o0o0o000o00o00o0oooo0o0o0o0o0ooo000oo0o0o0oo00o =~ "${kata4}" ]] || [[ $M4QLo0o0o0o0o0o0o0o0o0o0o0o0o0o000o00o00o0oooo0o0o0o0o0ooo000oo0o0o0oo00o =~ "${kata5}" ]]; then
 		printf "TRUE\n"
 		printf "    Skip\n\n"
 		echo "$M4QLo0o0o0o0o0o0o0o0o0o0o0o0o0o000o00o00o0o0o0o0o0o0ooo000000oo00o -> Hacked" >> Defaced.txt
